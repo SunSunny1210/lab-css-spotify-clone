@@ -7,8 +7,6 @@ White: #FFF
 
 */
 @import url(https://db.onlinewebfonts.com/c/0699467ea5640c866788e1cc9af38ea8?family=Circe+Web);
-mport url(https://db.onlinewebfonts.com/c/473366d6efa789713f64f858d8e3cc2c?family=Erbar+W01+Medium);
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +15,6 @@ mport url(https://db.onlinewebfonts.com/c/473366d6efa789713f64f858d8e3cc2c?famil
 
 body {
     font-family: "Circe Web";
-    min-height: 100vh;
     color: #1A1A1A;
 
     nav {
@@ -40,19 +37,4 @@ body {
             gap: 30px;
         }
     }
-
-    section.crowd {
-        position: absolute;
-        background-image: url(../images/landing.jpg);
-        margin-top: 8rem;
-        height: 40%;
-        color: white;
-       
-            h1 {
-                display: flex;
-                justify-content: center;
-            }
-
-            p 
-
-    }
+}
