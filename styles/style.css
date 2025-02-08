@@ -37,4 +37,14 @@ body {
             gap: 30px;
         }
     }
+
+    section.crowd {
+        background-image: url(../images/landing.jpg);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        margin-top: 8rem;
+
 }
