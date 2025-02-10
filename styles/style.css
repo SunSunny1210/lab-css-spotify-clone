@@ -8,6 +8,7 @@ White: #FFF
 */
 @import url(https://db.onlinewebfonts.com/c/0699467ea5640c866788e1cc9af38ea8?family=Circe+Web);
 @import url(https://db.onlinewebfonts.com/c/3744af01c95658733f126804487fbf70?family=Circe+Web+Light);
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +34,7 @@ body {
             background-size: 15% 70%;
             background-position-y: center;
             background-position-x: 2rem;
-    
+
             ul {
                 margin: 0;
                 padding: 2rem 5rem;
@@ -43,7 +44,7 @@ body {
                 align-self: center;
                 font-size: 25px;
                 gap: 30px;
-                
+
                 a {
                     color: #1A1A1A;
                     text-decoration: none;
@@ -89,8 +90,8 @@ body {
 
         div#block {
             flex-basis: 33%;
-            padding-top: 13rem;
-            padding-bottom: 3rem;
+            padding-top: 18rem;
+            padding-bottom: 5rem;
             font-size: 1.5rem;
         }
 
@@ -101,16 +102,58 @@ body {
             border-bottom: 7px solid #00B172;
         }
 
-        
+
         h3 {
             color: #00B172;
-            font-size: 2rem;
+            font-size: 3rem;
         }
     }
 
-    
+    section.kanye {
+        background: #00B172 url(../images/spotify-icon-white.png) no-repeat;
+        background-position: center;
+        background-size: 12rem;
+        color: #fff;
+        padding: 3rem 5rem;
+        border-left: 2rem solid #fff;
+        border-right: 2rem solid #fff;
 
-    
+        h2 {
+            font-size: 3rem;
+            border-bottom: 7px solid #fff;
+            width: fit-content;
+        }
 
-    
+        ul {
+            width: 33%;
+            padding-top: 3rem;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 3rem;
+
+            li {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.7rem;
+            }
+        }
+
+        aside {
+            float: right;
+
+            img {
+                height: 45rem;
+            }
+        }
+
+
+
+
+
+
+    }
 }
