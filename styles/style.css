@@ -43,6 +43,11 @@ body {
                 align-self: center;
                 font-size: 25px;
                 gap: 30px;
+                
+                a {
+                    color: #1A1A1A;
+                    text-decoration: none;
+                }
             }
         }
     }
