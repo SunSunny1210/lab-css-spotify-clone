@@ -61,11 +61,10 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
         margin-top: 6rem;
         flex-direction: column;
         color: #fff;
-        padding-bottom: 9%;
+        padding-bottom: 5rem;
 
         h1 {
             font-size: 5rem;
@@ -80,32 +79,42 @@ body {
     }
 
     section.list {
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
+
+        div {
+            display: flex;
+            justify-content: space-evenly;
+            
+            div#block {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-basis: 33%;
+                padding: 7rem 5rem;
+                font-size: 2rem;
+            }
+            
+        }
+        
 
         img {
             width: 8rem;
         }
 
-        div#block {
-            flex-basis: 33%;
-            padding-top: 18rem;
-            padding-bottom: 5rem;
-            font-size: 1.5rem;
-        }
+        
 
         h2 {
-            position: absolute;
+            margin: 0 auto;
             font-size: 3rem;
             padding: 3rem 0 0;
             border-bottom: 7px solid #00B172;
+            width: fit-content;
         }
 
 
         h3 {
             color: #00B172;
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
     }
 
