@@ -29,9 +29,10 @@ body {
             box-sizing: border-box;
             position: fixed;
             width: 100vw;
-            height: 10vh;
             background: white url(../images/spotify-logo.png) no-repeat;
-            background-size: contain;
+            background-size: 15% 70%;
+            background-position-y: center;
+            background-position-x: 2rem;
     
             ul {
                 margin: 0;
@@ -50,7 +51,7 @@ body {
         background: url(../images/landing.jpg);
         background-size: 100% 100%;
         width: 100vw;
-        height: 40rem;
+        height: 50rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,9 +83,10 @@ body {
         }
 
         div#block {
-            width: 33%;
+            flex-basis: 33%;
             padding-top: 13rem;
             padding-bottom: 3rem;
+            font-size: 1.5rem;
         }
 
         h2 {
