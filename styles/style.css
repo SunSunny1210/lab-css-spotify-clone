@@ -7,6 +7,7 @@ White: #FFF
 
 */
 @import url(https://db.onlinewebfonts.com/c/0699467ea5640c866788e1cc9af38ea8?family=Circe+Web);
+@import url(https://db.onlinewebfonts.com/c/3744af01c95658733f126804487fbf70?family=Circe+Web+Light);
 * {
     margin: 0;
     padding: 0;
@@ -16,35 +17,93 @@ White: #FFF
 body {
     font-family: "Circe Web";
     color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
 
-    nav {
-        position: fixed;
-        width: 100%;
-        height: 10%;
-        background-image: url(../images/spotify-logo.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 0.5rem 2rem;
+    p {
+        font-family: "Circe Web Light";
+    }
 
-        ul {
-            margin: 0;
-            padding: 2rem 5rem;
-            list-style: none;
-            display: flex;
-            justify-content: flex-end;
-            align-self: center;
-            font-size: 25px;
-            gap: 30px;
+    header {
+        nav {
+            box-sizing: border-box;
+            position: fixed;
+            width: 100vw;
+            height: 10vh;
+            background: white url(../images/spotify-logo.png) no-repeat;
+            background-size: contain;
+    
+            ul {
+                margin: 0;
+                padding: 2rem 5rem;
+                list-style: none;
+                display: flex;
+                justify-content: flex-end;
+                align-self: center;
+                font-size: 25px;
+                gap: 30px;
+            }
         }
     }
 
     section.crowd {
-        background-image: url(../images/landing.jpg);
-        width: 100%;
+        background: url(../images/landing.jpg);
+        background-size: 100% 100%;
+        width: 100vw;
+        height: 40rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: fixed;
-        margin-top: 8rem;
+        position: relative;
+        margin-top: 6rem;
+        flex-direction: column;
+        color: #fff;
+        padding-bottom: 9%;
 
+        h1 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 2rem;
+            text-align: center;
+            padding: 0 25%;
+
+        }
+    }
+
+    section.list {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            width: 8rem;
+        }
+
+        div#block {
+            width: 33%;
+            padding-top: 13rem;
+            padding-bottom: 3rem;
+        }
+
+        h2 {
+            position: absolute;
+            font-size: 3rem;
+            padding: 3rem 0 0;
+            border-bottom: 10px solid #00B172;
+        }
+
+        
+        h3 {
+            color: #00B172;
+            font-size: 2rem;
+        }
+    }
+
+    
+
+    
+
+    
 }
