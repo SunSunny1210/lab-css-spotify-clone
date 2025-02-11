@@ -87,6 +87,7 @@ body {
             div#block {
                 text-align: center;
                 display: flex;
+                justify-content: flex-start;
                 flex-direction: column;
                 align-items: center;
                 flex-basis: 33%;
@@ -99,6 +100,7 @@ body {
 
         img {
             width: 8rem;
+            height: 7rem;
         }
 
         
@@ -124,8 +126,8 @@ body {
         background-size: 12rem;
         color: #fff;
         padding: 3rem 5rem;
-        border-left: 2rem solid #fff;
-        border-right: 2rem solid #fff;
+        margin-left: 2rem;
+        margin-right: 2rem;
 
         h2 {
             font-size: 3rem;
